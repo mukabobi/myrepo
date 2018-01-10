@@ -10,10 +10,23 @@
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
         <ion-list data-comp-id="ionic-list.1" ng-repeat="item in data.trackerList">
-            <div class="item item-icon-right" data-comp-id="item.1"
+            <ion-item class="item item-icon-right" data-comp-id="item.1"
                 ng-click="app.action('listview', 'data.listItems[item].action', this)"
                 ng-repeat="item in data.listItems"
-                style="border-top: 1px solid rgba(255, 255, 255, 0);"></div>
+                style="border-top: 1px solid rgba(255, 255, 255, 0);"></ion-item>
+            <div class="row" data-comp-id="row.2">
+                <div class="col" data-comp-id="column.3">
+                    <div data-comp-id="text.3" ng-bind="item.orderName">Some text</div>
+                </div>
+            </div>
+            <div class="row" data-comp-id="row.1">
+                <div class="col" data-comp-id="column.2">
+                    <div data-comp-id="text.1" ng-bind="item.project">Some text</div>
+                </div>
+                <div class="col" data-comp-id="column.1">
+                    <div data-comp-id="text.2" ng-bind="item.status">Some text</div>
+                </div>
+            </div>
         </ion-list>
     </ion-content>
 </ion-view>
