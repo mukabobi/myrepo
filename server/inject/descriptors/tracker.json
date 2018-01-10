@@ -3,8 +3,8 @@
   "properties": {
     "isTracker": {
       "type": "identifier",
-      "selector": ".pageBtn.btn.btn-default",
-      "control": "action.link"
+      "selector": "body",
+      "control": "exists"
     }
   },
   "connect": []
