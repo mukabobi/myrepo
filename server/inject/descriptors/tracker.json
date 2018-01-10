@@ -8,7 +8,7 @@
     },
     "trackerList": {
       "type": "array",
-      "selectorAll": "a",
+      "selectorAll": ".table tr",
       "items": {
         "type": "object",
         "properties": {
