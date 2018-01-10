@@ -33,15 +33,6 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.login', {
-        views: {
-            app: {
-                controller: 'app_login',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.login');
-                }
-            }
-        }
     }).state('app.trackerlist', {
         views: {
             app: {
