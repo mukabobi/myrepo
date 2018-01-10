@@ -12,6 +12,5 @@
       "control": "action.link"
     }
   },
-  "connect": [],
-  "selector": "body"
+  "connect": []
 }
