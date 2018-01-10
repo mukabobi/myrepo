@@ -22,11 +22,18 @@
       "sourceScreenId": "app.multiselect"
     },
     {
-      "id": "logincool",
-      "name": "Login-Cool",
+      "id": "login",
+      "name": "login",
       "sourceScreenId": "app.login.logincool",
       "sourceAppId": "universaltemplates",
       "model": "logincool"
+    },
+    {
+      "id": "trackerlist",
+      "name": "trackerList",
+      "sourceScreenId": "app.listview.listviewcool",
+      "sourceAppId": "universaltemplates",
+      "model": "trackerlist"
     }
   ],
   "sourceAppId": "_blank",
