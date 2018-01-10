@@ -26,7 +26,7 @@
       "name": "trackerList",
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
-      "model": "tracker"
+      "model": "trackerlist"
     }
   ],
   "sourceAppId": "_blank",
