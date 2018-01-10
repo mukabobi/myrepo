@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "myrepo",
-  "startScreen": "app.blank",
+  "startScreen": "app.trackerlist",
   "screens": [
     {
       "id": "blank",

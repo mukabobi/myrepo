@@ -4,5 +4,11 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "d70cb30f",
   "uiCommonVersion": "5.2.10",
-  "creatorId": "viecsehn"
+  "creatorId": "viecsehn",
+  "id": "myrepo",
+  "previewImageURL": "/previews/d70cb30f-myrepo/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/mukabobi/myrepo",
+  "creatorName": "Christian Sehn",
+  "sdks": []
 }
