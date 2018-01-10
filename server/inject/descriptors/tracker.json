@@ -1,5 +1,11 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "isTracker": {
+      "type": "identifier",
+      "selector": ".pageBtn.btn.btn-default",
+      "control": "action.link"
+    }
+  },
   "connect": []
 }
