@@ -42,5 +42,6 @@
         "trackerlist"
       ]
     }
-  ]
+  ],
+  "selector": "body"
 }
