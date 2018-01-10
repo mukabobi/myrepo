@@ -5,7 +5,22 @@
       "type": "identifier",
       "selector": "body",
       "control": "exists"
+    },
+    "trackerList": {
+      "type": "array",
+      "selectorAll": "a",
+      "items": {
+        "type": "object",
+        "properties": {
+          "orderName": {
+            "type": "string",
+            "selector": "a",
+            "control": "action.link"
+          }
+        }
+      }
     }
   },
-  "connect": []
+  "connect": [],
+  "selector": "table tr"
 }
