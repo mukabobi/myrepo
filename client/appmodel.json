@@ -71,5 +71,27 @@
         }
       }
     }
+  },
+  "tracker": {
+    "type": "object",
+    "properties": {
+      "trackerList": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "orderName": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "project": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
   }
 }
