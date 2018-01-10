@@ -22,5 +22,5 @@
     }
   },
   "connect": [],
-  "selector": ".table tbody tr"
+  "selector": ".table tr"
 }
