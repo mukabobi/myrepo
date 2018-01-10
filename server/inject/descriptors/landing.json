@@ -5,6 +5,11 @@
       "type": "identifier",
       "selector": "body",
       "control": "exists"
+    },
+    "goToTracker": {
+      "type": "action",
+      "selector": "a[href=\"/OrdersTracker\"]",
+      "control": "action.link"
     }
   },
   "connect": []
