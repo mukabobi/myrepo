@@ -81,7 +81,10 @@
           "type": "object",
           "properties": {
             "orderName": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "status": {
               "type": "string"
@@ -90,6 +93,9 @@
               "type": "string"
             }
           }
+        },
+        "update": {
+          "type": "none"
         }
       }
     }
