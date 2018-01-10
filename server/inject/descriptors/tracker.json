@@ -22,6 +22,12 @@
             "selector": "td",
             "control": "property.innerText",
             "selectIndex": 1
+          },
+          "project": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 2
           }
         }
       }
