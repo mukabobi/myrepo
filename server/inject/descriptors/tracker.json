@@ -33,15 +33,6 @@
       }
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isTracker"
-      ],
-      "screens": [
-        "trackerlist"
-      ]
-    }
-  ],
+  "connect": [],
   "selector": "body"
 }
