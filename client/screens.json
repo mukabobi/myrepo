@@ -26,6 +26,13 @@
       "name": "tracker",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
+    },
+    {
+      "id": "testlist",
+      "name": "testList",
+      "sourceScreenId": "app.listview.listviewcool",
+      "sourceAppId": "universaltemplates",
+      "model": "testlist"
     }
   ],
   "sourceAppId": "_blank",
