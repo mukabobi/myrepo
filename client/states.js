@@ -33,12 +33,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.trackerlist', {
+    }).state('app.tracker', {
         views: {
             app: {
-                controller: 'app_trackerlist',
+                controller: 'app_tracker',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.trackerlist');
+                    return app.templateProvider('app.tracker');
                 }
             }
         }

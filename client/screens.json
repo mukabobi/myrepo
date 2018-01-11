@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "myrepo",
-  "startScreen": "app.trackerlist",
+  "startScreen": "app.tracker",
   "screens": [
     {
       "id": "blank",
@@ -22,8 +22,8 @@
       "sourceScreenId": "app.multiselect"
     },
     {
-      "id": "trackerlist",
-      "name": "trackerList",
+      "id": "tracker",
+      "name": "tracker",
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
       "model": "tracker"
